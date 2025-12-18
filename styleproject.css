@@ -43,6 +43,7 @@ body{
   align-items:center;
   gap:16px;
   padding:10px 0;
+  justify-content: space-between;
 }
 .logo{
   display:flex;
@@ -230,10 +231,10 @@ body{
   padding:24px 0;
 }
 .footer-grid{
-  display:grid;
-  grid-template-columns:repeat(4,1fr);
-  gap:20px;
+  display:flex;
+  justify-content: space-evenly;
 }
+
 .footer-grid h4{margin:0 0 10px;color:#fff}
 .footer-grid ul{list-style:none;margin:0;padding:0}
 .footer-grid li{margin:6px 0}
