@@ -1,164 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Amazon Clone</title>
-  <link rel="stylesheet" href="styleproject.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUMA  Website</title>
+    <link rel="stylesheet" href="styleproject.css">
 </head>
 <body>
-  <!-- Top notice bar -->
-  <div class="notice-bar">
-    <div class="container">
-      <span>Deliver to Ghaziabad 201001</span>
+
+
+<header class="header">
+    <div class="logo">
+        <a href="https://in.puma.com" target="_blank">
+            <img src="https://assets.turbologo.com/blog/en/2019/11/19084917/puma-logo-cover-958x575.png" height="70px" width="70px">PUMA</a>
     </div>
-  </div>
-
-  <!-- Header -->
-  <header class="header">
-    <div class="container header-inner">
-      <a href="#" class="logo">
-        <span class="logo-icon">a</span>
-        <span class="logo-text">mazon</span>
-      </a>
-
-      <nav class="header-actions">
-        <a href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fgp%2Fcart%2Fview.html%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" class="action">
-          <span class="small">Hello, Shivansh</span>
-          <strong>Account & Lists</strong>
-        </a>
-        <a href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fyour-orders%2Forders%3Fref_%3Dnav_orders_first&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_retail_yourorders_in&openid.mode=checkid_setup&language=en_IN&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" class="action">
-          <span class="small">Returns</span>
-          <strong> & Orders</strong>
-        </a>
-        <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart" class="action cart">
-          🛒
-          <strong>Cart</strong>
-        </a>
-      </nav>
-    </div>
-
-    <!-- Subnav -->
-    <div class="subnav">
-      <div class="container subnav-inner">
-        <a href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_5szpgfto9i_e&adgrpid=155259813593&hvpone=&hvptwo=&hvadid=674893540034&hvpos=&hvnetw=g&hvrand=15030669106513290357&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007820&hvtargid=kwd-64107830&hydadcr=14452_2316413&gad_source=1" class="subnav-item">All</a>
-        <a href="https://www.amazon.in/gp/bestsellers/?ref_=nav_cs_bestsellers" class="subnav-item">Best Sellers</a>
-        <a href="https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles" class="subnav-item">Mobiles</a>
-        <a href="https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics" class="subnav-item">Electronics</a>
-        <a href="https://www.amazon.in/gp/browse.html?node=6648217031&ref_=nav_cs_fashion" class="subnav-item">Fashion</a>
-        <a href="https://www.amazon.in/Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home" class="subnav-item">Home & Kitchen</a>
-        <a href="https://www.amazon.in/amazonpay/home?ref_=nav_cs_apay" class="subnav-item">Amazon Pay</a>
-        <a href="https://www.amazon.in/amazonprime?ref_=nav_cs_primelink_nonmember" class="subnav-item">Prime</a>
-        <a href="https://www.amazon.in/deals?ref_=nav_cs_gb" class="subnav-item">Today's Deals</a>
-      </div>
-    </div>
-  </header>
-
-  <!-- Hero banner -->
-  <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-card">
-        <h2>Great Indian Deals</h2>
-        <p>Up to 60% off on electronics, fashion, and more.</p>
-        <a href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_5szpgfto9i_e&adgrpid=155259813593&hvpone=&hvptwo=&hvadid=674893540034&hvpos=&hvnetw=g&hvrand=15030669106513290357&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007820&hvtargid=kwd-64107830&hydadcr=14452_2316413&gad_source=1" class="btn">Shop now</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Product grid -->
-  <main class="container">
-    <section class="grid">
-      <!-- Card 1 -->
-      <article class="card">
-        <h3>Smartphones</h3>
-        <div class="card-img">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRsfj00_jxjB0Wt7iY-X2EwVeEFC7eFl-wHQ&s" alt="Smartphones" />
-        </div>
-        <ul class="card-list">
-          <li><a href="#">Budget picks under ₹10,000</a></li>
-          <li><a href="#">5G phones</a></li>
-          <li><a href="#">Flagship deals</a></li>
-          <li><a href="https://www.amazon.in/s?k=smartphones&crid=3KHDZA3A0OC7Q&sprefix=smartphones%2Caps%2C528&ref=nb_sb_noss_2">All smartphones</a></li>
-        </ul>
-      </article>
-
-      <!-- Card 2 -->
-      <article class="card">
-        <h3>Headphones</h3>
-        <div class="card-img">
-          <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Rockerz_650_pp_renders_main_banner.124.png?v=1740735495&width=400" alt="Headphones" />
-        </div>
-        <ul class="card-list">
-          <li><a href="#">Wireless</a></li>
-          <li><a href="#">Noise cancellation</a></li>
-          <li><a href="#">Gaming headsets</a></li>
-          <li><a href="https://www.amazon.in/s?k=headphones+bluetooth+wireless&crid=2PZ61GO2R0QJX&sprefix=headphones%2Caps%2C609&ref=nb_sb_ss_mvt-t11-ranker_1_10">See all</a></li>
-        </ul>
-      </article>
-
-      <!-- Card 3 -->
-      <article class="card">
-        <h3>Home essentials</h3>
-        <div class="card-img">
-          <img src="https://m.media-amazon.com/images/G/31/img20/kitchen/Jupiter-Phase1/revised/440x460-4.jpg" alt="Home essentials" />
-        </div>
-        <ul class="card-list">
-          <li><a href="#">Kitchen</a></li>
-          <li><a href="#">Storage</a></li>
-          <li><a href="#">Cleaning</a></li>
-          <li><a href="https://www.amazon.in/s?k=home+essentials&crid=13KN88AGXVY8&sprefix=home+essentials%2Caps%2C488&ref=nb_sb_noss_2">Explore more</a></li>
-        </ul>
-      </article>
-
-      <!-- Card 4 -->
-      <article class="card">
-        <h3>Fashion picks</h3>
-        <div class="card-img">
-          <img src="https://m.media-amazon.com/images/G/31/img21/MA2022/Winterflip1/P0/BBD/5._SY875_QL85_.jpg" alt="Fashion picks" />
-        </div>
-        <ul class="card-list">
-          <li><a href="#">Men</a></li>
-          <li><a href="#">Women</a></li>
-          <li><a href="#">Footwear</a></li>
-          <li><a href="https://www.amazon.in/s?k=wearable+clothes+for+men+and+women&crid=1ZCZATH880OUM&sprefix=wearable+clothes+for+men+and+women%2Caps%2C691&ref=nb_sb_noss">All fashion</a></li>
-        </ul>
-      </article>
-    </section>
-
    
-    <section class="strip">
-      <h3>Top picks for you</h3>
-      <div class="strip-items">
-        <a class="strip-item" href="https://www.amazon.in/s?k=portable+speakers&crid=2798L9CZHUP0H&sprefix=%2Caps%2C302&ref=nb_sb_ss_recent_2_0_recent">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2krlsmR-YJ7ovigudu2Hf-L3Tv5D1TGPpyA&s" alt="Item 1" />
-          <span>Portable speaker</span>
-        </a>
-        <a class="strip-item" href="https://www.amazon.in/s?k=smartwatch+for+man&crid=3CMF7YLEV8HYB&sprefix=smartwatch%2Caps%2C442&ref=nb_sb_ss_mvt-t11-ranker_1_10">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL3tgfjKHswRw4tHsfoaP8uh5zIILqkO8U8g&s" alt="Item 2" />
-          <span>Smartwatch</span>
-        </a>
-        <a class="strip-item" href="https://www.amazon.in/s?k=backpack+bag+for+man&crid=30FSLUZXICPE9&sprefix=backpack%2Caps%2C414&ref=nb_sb_ss_mvt-t11-ranker_1_8">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGhOZbpntnnnqqJzMphVFRMEWIoywGp1phJQ&s" alt="Item 3" />
-          <span>Backpack</span>
-        </a>
-        <a class="strip-item" href="https://www.amazon.in/s?k=gaming+mouse+for+laptop&crid=160LPOX7NK982&sprefix=gaming+mouse%2Caps%2C2423&ref=nb_sb_ss_mvt-t11-ranker_4_12">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZTNI82FatViVoDrKKxkV3ik4bGdoRmbWSzw&s" alt="Item 4" />
-          <span>Gaming mouse</span>
-        </a>
-        <a class="strip-item" href="https://www.amazon.in/s?k=led+bulb+pack&crid=1QL6D45S4DVVP&sprefix=led+bulb+pack%2Caps%2C344&ref=nb_sb_noss_1">
-          <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS09uT-n3jVmpB8dYo3dUyEAhGLq9EhxoNZKQZfQ08xvDi3OUZgDfRN5kLtc7WFss7qtWywtuEl6jgZJNn3BWtGHYtOY5ZySe-ysnhiNABeVWRA3XrhVAi0ZA" alt="Item 5" />
-          <span>LED bulb pack</span>
-        </a>
-      </div>
-    </section>
-  </main>
 
-  
+    <nav class="nav">
+              <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart" class="action cart">🛒 <strong>Cart</strong></a>
+        <a href="https://in.puma.com" target="_blank">Home</a>
+        <a href="https://in.puma.com/in/en/search" target="_blank"><strong></strong> Search</strong> </a>
+        <a href="https://in.puma.com/in/en/men" target="_blank"><strong>Men</strong> </a>
+        <a href="https://in.puma.com/in/en/women" target="_blank"><strong>Women</strong> </a>
+        <a href="https://in.puma.com/in/en/sports" target="_blank"><strong>Shoes</strong> </a>
+        <a href="https://in.puma.com/in/en/help" target="_blank"><strong>Contact</strong> </a>
+    </nav>
+</header>
+
+
+<section class="banner">
+    <div class="banner-text">
+        <h1>FOREVER FASTER</h1>
+        <p>New Sports Collection</p>
+        <h2>WRAPPED UP AND READY TO MOVE</h2>
+
+        <div class="boxes">
+               <div id="h3"><a href="https://in.puma.com/in/en/sneakers"><b>SNEAKERS</b></a></div>
+               <div id="h3"><a href="https://in.puma.com/in/en/search?q=T%20shirt"><b>T-SHIRTS</b></a></div>
+               <div id="h3"><a href="https://in.puma.com/in/en/shop-all-accessories?filter_dept_name=%3E{bags_0_casual;bags_0_backpacks;bags_0_gym_0_sports;backpacks}&offset=24"><b>BAGS</b></a></div>
+               <div id="h3"><a href="https://in.puma.com/in/en/sports/sports-training"><b>ACTIVE WEARS</b></a></div>
+               <div id="h3"><a href="https://in.puma.com/in/en/search?q=Track%20pants"><b>TRACK PANTS</b></a></div>
+               </div>
+</section>
+
+<section class="products">
+    <h1><u>Featured Products</u></h1>
+    <br><br>
+    <div class="product-box">
+
+        <div class="product">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRRvF1veYWHcbprR3smuItwOXXJ7mWH0DnzzWThWGQShlvbyOEUo0V5JyFB4yiSLLeCx55xZH_jV-X5ANLgwxwHhDx1k_DSvR-XU-cYkAnfifx1e9eFDlL_NB6267UyKKV2P066Ug8&usqp=CAc">
+            <br><br><br><br><br><br>
+            <h3>Running Shoes</h3>
+            <p>₹11249</p>
+            <a href="https://in.puma.com/in/en/men/shoes" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp1d2MY4B9fQK6npHuOzQIc-qn7hPh8ordog&s">
+            <br><br><br><br>
+            <h3>Sports T-Shirt</h3>
+            <p>₹1499</p>
+            <a href="https://in.puma.com/in/en/men/clothing" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS040d9oQ6oshg5iMndwCM7SLGzGGx-EdyohQ&s">
+            <br><br>
+            <h3>Track Pants</h3>
+            <p>₹1999</p>
+            <a href="https://in.puma.com/in/en/men/clothing" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+
+                <div class="product">
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSnC-8bwJ1P9vJNZCREBEO4OlrONRtZU2KJ6Ghrptv6vd93phniavOdwmmhgX9BSgy6IMGxBJ-AgpHPyXXYQ1wzOupvZgblElhrBP1fNVDmZdoLSCoJaRPQjXNOKUJGVUulaCwXEg&usqp=CAc">
+            <br><br><br><br>
+            <h3>Puma Bags</h3>
+            <p>₹499</p>
+            <a href="https://in.puma.com/in/en/mens/mens-accessories/mens-accessories-backpacks" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnXIsHlVYKFax5lE-7RFhtNayQBIn9G8tcA&s">
+            <br><br><br><br>
+            <h3>Puma Jackets </h3>
+            <p>₹1999</p>
+            <a href="https://in.puma.com/in/en/mens/mens-clothing/mens-clothing-jackets" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="products">
+    <div class="product-box">
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN_MEQy_hLiGiu2ZkO-5qDkpF74gkpxIMLVQ&s">
+            <br><br><br>
+            <h3>Running Shoes</h3>
+            <p>₹2999</p>
+            <a href="https://in.puma.com/in/en/men/shoes" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxU9b1uyrkKTpzgVM-k68xJ9DB7vV59RezuA&s">
+            <h3>Track Pants</h3>
+            <p>₹1999</p>
+            <a href="https://in.puma.com/in/en/men/clothing" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+
+                <div class="product">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTa_zGgJmvUlx5d-mBweuVH_jg3vNVwgmmk9SyZtV1uWUP7YHEzhniR7XjMQXG6kiLc-LynVjI8WgHjN6251fJsbNQDq6jivo227mq5zczExyESxU9nvve75bUUTBPkVqATVnMwcopNpHM&usqp=CAc">
+            <br><br><br><br>
+            <h3>Puma Bags</h3>
+            <p>₹499</p>
+            <a href="https://in.puma.com/in/en/mens/mens-accessories/mens-accessories-backpacks" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+
+        <div class="product">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS14UA8gTY_aPQDxQAP61lY3jaRFk2fBeRnr4I_D4YOotJqpFPizA4FB51kMrUrzVgiLooVIJYdYFiTGdr7VLX4HWibOy_8s6nBCkxuKSGRJMJgARVG&usqp=CAc">
+            <br><br><br><br><br>
+            <h3>Puma Jackets </h3>
+            <p>₹1999</p>
+            <a href="https://in.puma.com/in/en/mens/mens-clothing/mens-clothing-jackets" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>
+        © 2025 |
+        <a href="https://in.puma.com" target="_blank">Official PUMA Website</a>
+    </p>
+</footer>
+
   <footer class="footer">
-    <a href="#" class="back-to-top">Back to top</a>
       <div class="container footer-grid">
         <div>
           <h4>Connect with us</h4>
@@ -168,30 +162,6 @@
             <li><a href="https://www.instagram.com/amazondotin">Instagram</a></li>
           </ul>
         </div>
-        <div>
-          <h4>Let us help you</h4>
-          <ul>
-            <li><a href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Famazon.in%2Fyour-product-safety-alerts%3Fref_%3Dfooter_bsx_ypsa&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_yourrecalls_in&openid.mode=checkid_setup&language=en_IN&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Recalls and Product Safety Alerts</a></li>
-            <li><a href="https://www.amazon.in/gp/css/homepage.html?ref_=footer_ya">Your Account</a></li>
-            <li><a href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fspr%2Freturns%2Fhomepage%2Fhomepage.html%3Fref_%3Dfooter_hy_f_4&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_psr_desktop_in&openid.mode=checkid_setup&language=en_IN&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Returns Centre</a></li>
-            <li><a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he">Help</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="container footer-bottom-inner">
-        <a href="#" class="logo small-logo">
-          <span class="logo-icon">a</span><span class="logo-text">mazon</span>
-        </a>
-        <div class="locale">
-          <button class="locale-btn">🌐 English</button>
-          <button class="locale-btn">🇮🇳 India</button>
-        </div>
-      </div>
-      <p class="legal">This is a non-commercial demo clone for learning purposes.</p>
-    </div>
-  </footer>
+         </div>
 </body>
 </html>
