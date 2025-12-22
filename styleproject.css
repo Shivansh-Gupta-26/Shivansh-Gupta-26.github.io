@@ -73,9 +73,9 @@ nav a {
 
 .boxes{
   display:flex;
-    flex-wrap: wrap; /* Allows wrapping to next line if needed */
-  gap: 70px;        /* Adds space between items */
-  justify-content:center; /* Optional: centers the items */
+    flex-wrap: wrap;
+  gap: 70px;     
+  justify-content:center; 
   margin-top: 5rem;
 }
 
@@ -175,11 +175,3 @@ button {
     height: 70px;
     display: inline-block;
 }
-
-/* .banner {
-  height: 100px;
-  width:100px;
-  background-color: rgb(237, 7, 7);
-  color:white;
-  justify-content: space-evenly;
-} */
