@@ -158,6 +158,13 @@ footer {
     .banner p {
         font-size: 16px;
     }
+    
+    .banner{
+           background-image:url("https://assets.awwwards.com/awards/submissions/2023/03/6407408533a0b203811253.jpg");
+    background-size: 100rem 55rem;
+    background-repeat: no-repeat;
+
+    }
 
 }
 
