@@ -180,3 +180,31 @@ button {
     height: 70px;
     display: inline-block;
 }
+
+.search-container {
+    display: flex; 
+    justify-content:center;
+    padding: 10px;
+}
+
+#query {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    outline: none; 
+}
+
+.search-container button {
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 0 4px 4px 0; 
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-container button:hover {
+    background: #45a049; 
+}
