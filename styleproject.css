@@ -63,7 +63,12 @@ nav a {
     background-color: #f2f2f2;
     text-align: center;
     padding: 60px 20px;
- 
+    background-image:url("https://assets.awwwards.com/awards/submissions/2023/03/6407408533a0b203811253.jpg");
+    background-position:right ;
+    background-size: 100rem 55rem;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
 }
 
 .banner h1 {
@@ -114,7 +119,7 @@ nav a {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;   
+    flex-wrap: wrap; 
 }
 
 .product:hover {
