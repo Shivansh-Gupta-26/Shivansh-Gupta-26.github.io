@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo img{
+height: 60px;
+width: 100px;
+margin-top: 10px;
+}
+.logo a{
+  margin-bottom: 25px; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  text-align: center;
+  text-shadow: #ba0419;
+}
+
+.banner-text{
+  margin-top: 70px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+      display:flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    /* display: flex; */
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+
+
+.banner {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 60px 20px;
+    background-image:url("https://assets.awwwards.com/awards/submissions/2023/03/6407408533a0b203811253.jpg");
+    background-position:right ;
+    background-size: 100rem 55rem;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.banner h1 {
+    font-size: 40px;
+    padding-top: 80px;
+}
+
+.boxes{
+  display:flex;
+    flex-wrap: wrap;
+  gap: 70px;     
+  justify-content:center; 
+  margin-top: 5rem;
+}
+
+
+#h3 {
+  height: 150px;
+  width:150px;
+  background-color:#ba0419;
+  color:#e8c05a;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+  text-shadow: rgb(254, 244, 244);
+  border:10px solid rgb(212, 207, 207)
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.banner button {
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.products {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.product-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.product:hover {
+    border: 10px solid #cecece;
+    padding: 15px;
+    width: 220px;
+}
+
+.product img {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .banner p {
+        font-size: 16px;
+    }
+    
+    .banner{
+           background-image:url("https://assets.awwwards.com/awards/submissions/2023/03/6407408533a0b203811253.jpg");
+    background-size: 100rem 55rem;
+    background-repeat: no-repeat;
+
+    }
+    .search-container {
+    display: flex; 
+    justify-content:center;
+    padding: 10px;
+}
+
+#query {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    outline: none; 
+}
+
+.search-container button {
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 0 4px 4px 0; 
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-container button:hover {
+    background: #45a049; 
+  }
+}
+@media (min-width: 600px) {
+        .search-container {
+    display: flex; 
+    justify-content:center;
+    padding: 10px;
+}
+
+#query {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    outline: none; 
+}
+
+.search-container button {
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 0 4px 4px 0; 
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-container button:hover {
+    background: #45a049; 
+  }
+ }
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+button {
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.search-container {
+    display: flex; 
+    justify-content:center;
+    padding: 10px;
+}
+
+#query {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    outline: none; 
+}
+
+.search-container button {
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 0 4px 4px 0; 
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-container button:hover {
+    background: #45a049; 
+}
